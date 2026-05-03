@@ -1,0 +1,117 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 400 !important;
+  line-height: 1.2;
+}
+.container-fluid {
+  overflow: hidden;
+}
+.museo-sans-500 {
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.verveine {
+  font-family: verveine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.white-text {
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
+  color: #fff;
+}
+.filter-shadow-big {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(34,34,34,0.078));
+  filter: drop-shadow(5px 5px 5px rgba(34,34,34,0.078));
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(34,34,34,0.078));
+  filter: drop-shadow(5px 5px 5px rgba(34,34,34,0.078));
+}
+.light-orange-bg {
+  background-color: #fad49a;
+}
+.box-shadow {
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2);
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.staff-gallery .gallery-title p span {
+  display: inline-grid;
+  line-height: 0.75em;
+}
+.staff-gallery .left-row .name {
+  margin-left: 0;
+}
+.staff-gallery .profile-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+}
+.staff-gallery .name {
+  font-size: 4em;
+  z-index: 1;
+}
+.filter-shadow-small {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(34,34,34,0.169));
+  filter: drop-shadow(5px 5px 5px rgba(34,34,34,0.169));
+}
+@media (min-width: 577px) {
+  .staff-gallery .container {
+    max-width: 639px;
+  }
+  .staff-gallery .left-row .name {
+    margin-left: -0.25em;
+  }
+  .staff-gallery .name {
+    font-size: 6em;
+  }
+}
+@media (min-width: 768px) {
+  .staff-gallery .name {
+    font-size: 7em;
+  }
+  .staff-gallery .profile-image {
+    height: 0;
+    width: 25%;
+    padding-bottom: 35%;
+  }
+  .staff-gallery .gallery-title p span {
+    display: initial;
+  }
+}
+@media (min-width: 992px) {
+  .staff-gallery .container {
+    max-width: 869px;
+  }
+  .staff-gallery .name {
+    font-size: 8em;
+  }
+  .staff-gallery .nickname {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .staff-gallery .container {
+    max-width: 940px;
+  }
+  .staff-gallery .name {
+    font-size: 9em;
+  }
+}
