@@ -1,0 +1,205 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(116, 116, 116);  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+<link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+
+  <section class="header">
+    <nav>
+    
+    <a href="ICSVVU.html"><img src="logo.png" alt="Network issue"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+    <a href="ICSVVU.html"><img src="icslogo.png" alt="Network issue"></a> 
+    <div class="nav-links" id="navLinks"></div>
+        
+    </nav>
+
+<div class="text-box">
+    <h1 style="color:#fff">Institue Of Computer Science</h1><br>
+    <h2>Vikram University,Ujjain</h2><br>
+    <h3 style="color:#fff">NAAC Accredited 'B++' Grade</h3>
+    <h4>Country Rank 	219th</h4><br>
+    <h5>World Rank 	4799th</h5>
+       
+</div>
+</section>
+
+<form method="POST" action="connect.php" >  
+
+  <div class="container">  
+  <center>  <h1>Start-Up Form</h1> </center>  
+  <hr>  <br>
+
+  <label for="studentName">Student Name</label>   
+<input type="text" class="container" id="studentName" name="studentName" required/>   
+
+
+<label  for="class">Class</label>    
+<input type="text"  class="container" id="class" name="class" required/> 
+
+<label  for="title">Title</label>    
+<input type="text"  class="container" id="title" name="title" required/> 
+
+<label  for="punchline">Punch Line</label>    
+<input type="text"  class="container" id="punchline" name="punchline" required/> 
+
+<label  for="objective">Objective</label>    
+<input type="text"  class="container" id="objective" name="objective" required/> 
+
+<label  for="utility">Utility</label>    
+<input type="text"  class="container" id="utility" name="utility" required/>
+
+<label  for="methodology">Methodology</label>    
+<input type="text"  class="container" id="methodology" name="methodology" required/>
+
+<label  for="novelty">Novelty</label>    
+<input type="text"  class="container" id="novelty" name="novelty" required/>
+
+<label  for="department">Department Name</label>    
+<input type="text"  class="container" id="department" name="department" required/>
+
+<label  for="area">Area/Scop</label>    
+<input type="text"  class="container" id="area" name="area" required/>
+
+<label  for="brief">Brief Discription</label>    
+<input type="text"  class="container" id="brief" name="brief" required/>
+
+<center>
+<div>  
+  <label for="email">Gender</label><br> 
+  <div>
+    <label for="male" class="radio-inline"><input type="radio" name="gender" value="male" id="male"> Male</label>
+    <label for="female" class="radio-inline"><input type="radio" name="gender" value="female" id="female"> Female</label>
+    <label for="others" class="radio-inline"><input type="radio" name="gender" value="others" id="others"> Others</label>
+  </div>   
+  </div>  
+</center>
+
+
+ <label for="email"><b>Email</b></label>  
+ <input type="text" class="container" id="email" name="email"/>  
+
+  <div>
+ <label for="number"><b>Phone Number</b></label>  
+ <input type="tel"  id="number" />  
+</div>
+ 
+
+    <button type="submit" class="registerbtn">submit</button>    
+
+</form>  
+
+<section class="cta">
+    
+  <h2>About Us</h2>
+  <p>Institute of Computer Science with its premier objective to impart quality education in the area of computer science,<br>
+    continuously meeting its objective since 1989. Keeping the goal to deliver the latest and relevant knowledge with the<br>
+    practical aspects, institute has successfully completed more than 24 years of establishment.<br>
+    © 2023 Copy Rights Director, Institute of Computer Science,Vikram University Ujjain-456010 All Rights Reserved<br>
+    Phone: +91 7342511475<br>
+    Email: icsvikram2020@gmail.com</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-likedin"></i>
+  </div>
+  <p>Developed <i class="fa fa-heart-o"></i> by: Bhavesh Pandole</p><br>
+  <a href="" class="hero-btn">CONTACT US</a>
+  </section>
+  
+
+</body>  
+</html>  
+
+
+
+
+
+<!-----
+<label> Class </label>    
+<input type="text" name="Class" Student="Class" size="10"required />   
+
+
+<label> Title </label>   
+<input type="text" Title="Topic" Startup topic= "Topic" size="20" required />   
+
+<label> Punch Line </label>   
+<input type="text" Line="Slogan/Punch Line" Startup Slogan = "Punch Line" size="30" required /> 
+
+
+<label>   
+Utility :  
+</label>  
+ 
+<input type="text" name="text" placeholder="Utility" size="50"/ required>   
+Objective :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea> 
+
+<label>   
+  Methodology :  
+  </label> 
+  <textarea cols="80" rows="5" placeholder="Methodology" value="Methodology" required>  
+  </textarea> 
+    
+  <label>Novelty</label>   
+<input type="text" name="Novelty" placeholder= "Novelty" size="15" required /> 
+
+<label>Department Name </label>   
+<input type="text" name="Department Name " placeholder= "Department Name " size="15" required /> 
+
+<label>Area/Scop</label>   
+<input type="text" name="Area/Scop" placeholder= "Area/Scop" size="15" required /> 
+---->
