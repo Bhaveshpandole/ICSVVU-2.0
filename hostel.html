@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICSVVU Hostel</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hostel.css">
+  <link rel="stylesheet" href="ICSVVU programmes.css">
+<body>
+
+
+  <section class="header">
+    <nav>
+    
+    <a href="file:///G:/ICSVVU.html"><img src="logo.png" alt="Network issue"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </a>
+    <a href="file:///G:/ICSVVU.html"><img src="icslogo.png" alt="Network issue"></a> 
+    <div class="nav-links" id="navLinks"></div>
+        
+    </nav>
+
+<div class="text-box">
+    <h1 style="color:#fff">Institue Of Computer Science</h1><br>
+    <h2>Vikram University,Ujjain</h2><br>
+    <h3 style="color:#fff">NAAC Accredited 'B++' Grade</h3>
+    <h4>Country Rank 	219th</h4><br>
+    <h5>World Rank 	4799th</h5>
+       
+</div>
+</section>
+
+  <br><br><h1 style="text-align:center">Hostel</h1><br><br>
+
+<section class="user">
+  <div class="user_options-container">
+    <div class="user_options-text">
+      <div class="user_options-unregistered">
+        <h2 class="user_unregistered-title">Don't have an account?</h2>
+        <h3>Boys Hostel</h3>
+        <p class="user_unregistered-text">
+            Shaligram Tomar Hostel(36 Room)<br>
+            Bhartrihari Hostel(100 Room)<br>
+            Sandipani Hostel(100 Room)<br>
+            Kalidas Hostel(112 Room)
+            </p>
+            <h3>Girls Hostel</h3>
+           <p class="user_registered-text">
+            Vidhyotmma(50 Room)<br>
+            Ramabai Chatravas(50 Room)</p>
+        <button class="user_unregistered-signup" id="signup-button">Sign up</button>
+      </div>
+
+      <div class="user_options-registered">
+        <h2 class="user_registered-title">Have an account?</h2>
+        <h3>Boys Hostel</h3>
+        <p class="user_unregistered-text">
+            Shaligram Tomar Hostel(36 Room)<br>
+            Bhartrihari Hostel(100 Room)<br>
+            Sandipani Hostel(100 Room)<br>
+            Kalidas Hostel(112 Room)
+            </p>
+        <h3>Girls Hostel</h3>
+        <p class="user_registered-text">
+            Vidhyotmma(50 Room)<br>
+            Ramabai Chatravas(50 Room)</p>
+        <button class="user_registered-login" id="login-button">Login</button>
+      </div>
+    </div>
+    
+    <div class="user_options-forms" id="user_options-forms">
+      <div class="user_forms-login">
+        <h2 class="forms_title">Login</h2>
+        <form class="forms_form">
+          <fieldset class="forms_fieldset">
+            <div class="forms_field">
+              <input type="email" placeholder="Email" class="forms_field-input" required autofocus />
+            </div>
+            <div class="forms_field">
+              <input type="password" placeholder="Password" class="forms_field-input" required />
+            </div>
+          </fieldset>
+          <div class="forms_buttons">
+            <button type="button" class="forms_buttons-forgot">Forgot password?</button>
+            <input type="submit" value="Log In" class="forms_buttons-action">
+          </div>
+        </form>
+      </div>
+      <div class="user_forms-signup">
+        <h2 class="forms_title">Sign Up</h2>
+        <form class="forms_form">
+          <fieldset class="forms_fieldset">
+            <div class="forms_field">
+              <input type="text" placeholder="Full Name" class="forms_field-input" required />
+            </div>
+            <div class="forms_field">
+              <input type="email" placeholder="Email" class="forms_field-input" required />
+            </div>
+            <div class="forms_field">
+              <input type="password" placeholder="Password" class="forms_field-input" required />
+            </div>
+          </fieldset>
+          <div class="forms_buttons">
+            <input type="submit" value="Sign up" class="forms_buttons-action">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+/**
+ * Variables
+ */
+const signupButton = document.getElementById('signup-button'),
+    loginButton = document.getElementById('login-button'),
+    userForms = document.getElementById('user_options-forms')
+
+/**
+ * Add event listener to the "Sign Up" button
+ */
+signupButton.addEventListener('click', () => {
+  userForms.classList.remove('bounceRight')
+  userForms.classList.add('bounceLeft')
+}, false)
+
+/**
+ * Add event listener to the "Login" button
+ */
+loginButton.addEventListener('click', () => {
+  userForms.classList.remove('bounceLeft')
+  userForms.classList.add('bounceRight')
+}, false)
+
+</script>
+<!----------Designed By bhavesh------------>
+
+<footer>
+  <section class="cta">
+      <h2>About Us</h2><br><br>
+      <p>Institute of Computer Science with its premier objective to impart quality education in the area of computer science,<br>
+        continuously meeting its objective since 1989. Keeping the goal to deliver the latest and relevant knowledge with the<br>
+        practical aspects, institute has successfully completed more than 24 years of establishment.<br>
+        © 2023 Copy Rights Director, Institute of Computer Science,Vikram University Ujjain-456010 All Rights Reserved </p>
+          <p><br>
+            Phone: +91 7342511475<br>
+            Email: icsvikram2020@gmail.com</p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-likedin"></i>
+      </div>
+      <p>Developed <i class="fa fa-heart-o"></i> by: Bhavesh Pandole</p><br>
+      <a href="" class="hero-btn">CONTACT US</a>
+       </section>
+</footer>
+
+
+</body>
+</html>
